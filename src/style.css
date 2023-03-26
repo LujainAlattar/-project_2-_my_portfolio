@@ -1,0 +1,387 @@
+/* This is an external css sheet */
+
+
+/* Styling navbar */
+nav {
+    background-color: #938c88;
+}
+
+nav svg {
+    height: inherit;
+    width: 30px;
+}
+
+
+/* styling Home section */
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    color: #5E2B05;
+}
+
+.welcome {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    height: inherit;
+}
+
+.welcome p {
+    width: 60%;
+}
+
+.cover-img {
+    width: 35%;
+    margin-right: 0px;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+}
+
+/* styling about section */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fbf7f3;
+    gap: 30px;
+    margin-bottom: 40px;
+    color: #5E2B05;
+}
+
+.about-img {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    width: 60%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.about p {
+    width: 70%;
+}
+
+/* styling skills section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    color: #5E2B05;
+}
+
+.skills-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.skills-cards .grid-box {
+    width: 350px;
+    grid-template-columns: 30% 20% 50%;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.skills-cards .grid-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* styling Projects section */
+.projects-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 40px;
+    color: #5E2B05;
+    background-color: #fdfbf9;
+    padding: 20px;
+}
+
+.projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.projects-cards .grid-box {
+    width: 350px;
+    grid-template-columns: 30% 20% 50%;
+    gap: 20px;
+    border: 2px solid #938c88a4;
+    background-color: white;
+
+}
+
+.projects-cards .grid-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.projects-cards .grid-box .grid-item img {
+    width: 90%;
+    height: auto;
+}
+
+.projects-cards .grid-box .grid-item p {
+    margin-left: 5px;
+}
+
+/* styling Contact section */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+    margin-bottom: 40px;
+    color: #5E2B05;
+    padding: 20px;
+}
+
+.contact-container .sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    color: #5E2B05;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-form input {
+    height: 40px;
+}
+
+.contact-container .sub-container .contact-image {
+    width: 100%;
+    height: auto;
+}
+
+.contact-container .sub-container button {
+    height: 40px;
+    background-color: #5e2c0590;
+    color: white;
+    border: none;
+}
+
+/* styling Footer section */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    padding: 20px;
+    background-color: #fbf7f3;
+}
+
+.footer-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-item ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-item ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-container .social-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-container .social-links svg {
+    width: 40px;
+    height: 40px;
+}
+
+/* Fixed img */
+.fixed-img {
+    position: fixed;
+    right: 15px;
+    bottom: 70px;
+    width: 70px;
+}
+
+/* qualifications */
+.qualifications {
+    background-color: #5e2c0520;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+/* Hover transitions */
+.project:hover {
+    box-shadow: 0 0 10px #5E2B05;
+}
+
+.contact-container .sub-container button:hover {
+    background-color: white;
+    box-shadow: 0 0 10px #5E2B05;
+    color: #5E2B05;
+}
+
+.nav-item:hover {
+    background-color: #5e2c0587;
+}
+
+.fixed-img:hover {
+    box-shadow: 0 0 10px #5E2B05;
+    border-radius: 100%;
+}
+
+
+
+/* media query */
+/* max width (736) */
+@media only screen and (max-width: 736px) {
+    div.grid-box {
+        width: 80%;
+        grid-template-columns: 30% 20% 50%;
+        gap: 15px;
+    }
+}
+
+/* max width (546) */
+@media only screen and (max-width: 546px) {
+    div.home-container {
+        flex-direction: column-reverse;
+    }
+
+    div.about-container {
+        flex-direction: column;
+    }
+
+    div.welcome {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    div.welcome p {
+        width: 80%;
+        
+    }
+
+    div.cover-img {
+        margin: auto;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    div.about-img {
+        margin: auto;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    div.about {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    div.about p {
+        width: 80%;
+        
+    }
+}
+
+/* max width (415) */
+@media only screen and (max-width: 415px) {
+    div.sub-container {
+        width: 200px;
+    }
+
+    div.contact-form {
+        width: 250px;
+    }
+
+    div.skills-cards .grid-box {
+        margin-left: 2px;
+        width: 200px;
+        font-size: smaller;
+    }
+
+    div.skills p {
+        width: 200px;
+    }
+
+    div.skills-container {
+        justify-content: start;
+        margin-left: 0px;
+    }
+
+    div.project img {
+        width: 150px;
+    }
+
+    div.projects-container {
+        font-size: small;
+        gap: 20px;
+        margin-left: -10px;
+        margin: 0px;
+    }
+
+    div.projects-cards .grid-box {
+        width: 90%;
+    }
+}
+
+/* max width (306) */
+@media only screen and (max-width: 306px) {
+    div.about {
+        width: 50%;
+    }
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="My name is Lujain Alattar and this is my portfolio website (HTML, CSS & Bootstrap)">
+    <!-- Link to Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Link to style sheet (CSS) -->
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Start navbar section using bootstrap -->
+        <nav class="navbar navbar-expand-lg" id="main">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><svg viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z">
+                        </path>
+                    </svg></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white-50" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar section -->
+        
+        <!-- Fixed image back to up -->
+        <a href="#main"><img src="img/back-to-up.png" alt="back-to-up fixed-img" class="fixed-img"></a>
+
+        <!-- Start Home section -->
+        <div class="home-container" id="home">
+            <div class="welcome">
+                <h2>WELCOME!</h2>
+                <p>I'm thrilled to have you here, where you can explore my portfolio and see how I blend design and
+                    development to create engaging and user-friendly websites.</p>
+            </div>
+            <div class="cover-img">
+                <img src="img/cover.png" alt="cover-image" class="cover-image">
+            </div>
+        </div>
+        <!-- end Home section -->
+
+        <!-- Start about section -->
+        <div class="about-container" id="about">
+            <div class="about-img">
+                <img src="img/about.png" alt="my image" class="about-image">
+            </div>
+            <div class="about">
+                <h2>About me</h2>
+                <p>Hi, I'm Lujain Alattar, a web developer & Designer. I specialize in JavaScript, HTML, CSS, React, PHP, and Laravel. I enjoy building beautiful, functional websites for clients and keeping up with the latest tech.</p>
+            </div>
+        </div>
+        <!-- end about section -->
+
+        <!-- Start skills, qualifications, and experiences. section -->
+        <div class="skills-container" id="skills">
+            <div class="skills-title"><h2>Skills</h2></div>
+            <!-- cards using grid -->
+            <div class="skills-cards">
+                <div class="grid-box skills">
+                    <div class="grid-item">
+                        <img src="img/UI-UX.png" alt="UI-UX">
+                    </div>
+                    <div class="grid-item">
+                        <h3>UI/UX design</h3>
+                    </div>
+                    <div class="grid-item">
+                        <p>My skills in UI/UX design enable me to create visually appealing and user-friendly interfaces that deliver a seamless user experience.</p>
+                    </div>
+                </div>
+                <div class="grid-box skills">
+                    <div class="grid-item">
+                        <img src="img/web-design.png" alt="web-design">
+                    </div>
+                    <div class="grid-item">
+                        <h3>Web design</h3>
+                    </div>
+                    <div class="grid-item">
+                        <p>As a web designer, I specialize in creating custom designs that reflect my clients' brand identity and meet their specific business needs.</p>
+                    </div>
+                </div>
+                <div class="grid-box skills">
+                    <div class="grid-item">
+                        <img src="img/web-development.png" alt="web-development">
+                    </div>
+                    <div class="grid-item">
+                        <h3>Web development</h3>
+                    </div>
+                    <div class="grid-item">
+                        <p>As a web developer, I have extensive experience in developing and maintaining websites using various programming languages and technologies, from front-end design to back-end functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-container qualifications" id="skills">
+            <div class="qualification-title"><h2>Qualifications & Experience</h2></div>
+            <!-- cards using grid -->
+            <p>I am a software engineer with a Bachelor's degree in Software Engineering from WISE University.Now as a trainee in a coding academy, I am currently undergoing a comprehensive program to gain technical skills and hands-on experience in web development. I am currently learning HTML, CSS, and JavaScript programming languages, and have completed several projects as part of my training, including a responsive website and a JavaScript game. I am also becoming familiar with software development tools such as Git and GitHub. I am excited to continue developing my skills and knowledge in web development and to apply them to real-world projects. I am a quick learner and I am passionate about coding, and I am eager to join a team where I can contribute and continue to grow as a web developer. </p>
+            </div>
+        </div>
+        <!-- end skills,  qualifications, and experiences. section -->
+
+        <!-- Start projects section -->
+        <div class="projects-container" id="projects">
+            <div class="projects-title"><h2>Projects</h2></div>
+            <div class="description"><p>From responsive website designs to interactive web applications, my portfolio reflects my dedication to creating high-quality, visually stunning, and user-friendly projects</p></div>
+            <!-- cards using grid -->
+            <div class="projects-cards">
+                <div class="grid-box project">
+                    <div class="grid-item">
+                        <img src="img/project(1).png" alt="project image">
+                    </div>
+                    <div class="grid-item">
+                        <h6>Website</h6>
+                    </div>
+                    <div class="grid-item">
+                        <p>Description: I created a secure e-commerce website for a retail client that featured easy navigation, modern design, and an admin dashboard to manage inventory and track orders. The website successfully boosted the client's online sales.</p>
+                    </div>
+                </div>
+                <div class="grid-box project">
+                    <div class="grid-item">
+                        <img src="img/project(2).png" alt="project image">
+                    </div>
+                    <div class="grid-item">
+                        <h6>Website</h6>
+                    </div>
+                    <div class="grid-item">
+                        <p>Description: I created a secure e-commerce website for a retail client that featured easy navigation, modern design, and an admin dashboard to manage inventory and track orders. The website successfully boosted the client's online sales.</p>
+                    </div>
+                </div>
+                <div class="grid-box project">
+                    <div class="grid-item">
+                        <img src="img/project(3).png" alt="project image">
+                    </div>
+                    <div class="grid-item">
+                        <h6>Website</h6>
+                    </div>
+                    <div class="grid-item">
+                        <p>Description: I created an educational website with interactive learning experiences, multimedia resources, and a responsive design. Built using a content management system to allow for easy updates and improved student engagement and learning outcomes.</p>
+                    </div>
+                </div>
+                <div class="grid-box project">
+                    <div class="grid-item">
+                        <img src="img/project(4).png" alt="project image">
+                    </div>
+                    <div class="grid-item">
+                        <h6>Website</h6>
+                    </div>
+                    <div class="grid-item">
+                        <p>Description: I created a secure e-commerce website for a retail client that featured easy navigation, modern design, and an admin dashboard to manage inventory and track orders. The website successfully boosted the client's online sales.</p>
+                    </div>
+                </div>
+                <div class="grid-box project">
+                    <div class="grid-item">
+                        <img src="img/project(5).png" alt="project image">
+                    </div>
+                    <div class="grid-item">
+                        <h6>Website</h6>
+                    </div>
+                    <div class="grid-item">
+                        <p>Description: I created an educational website with interactive learning experiences, multimedia resources, and a responsive design. Built using a content management system to allow for easy updates and improved student engagement and learning outcomes.</p>
+                    </div>
+                </div>
+                <div class="grid-box project">
+                    <div class="grid-item">
+                        <img src="img/project(6).png" alt="project image">
+                    </div>
+                    <div class="grid-item">
+                        <h6>Website</h6>
+                    </div>
+                    <div class="grid-item">
+                        <p>Description: I created an educational website with interactive learning experiences, multimedia resources, and a responsive design. Built using a content management system to allow for easy updates and improved student engagement and learning outcomes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end projects section -->
+
+        <!-- Start contact section -->
+        <div class="contact-container" id="contact">
+            <div class="contact-title"><h2>Contact me</h2></div>
+            <div class="description"><p>Feel free to contact me if you have any questions or would like to discuss potential collaborations.</p></div>
+            <div class="sub-container">
+                <div class="contact-img"><img src="img/contact.png" alt="contact image" class="contact-image"></div>
+                <div class="contact-form">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <textarea name="" id="" cols="50" rows="5" placeholder="Message"></textarea>
+                    <button type="button">Send</button>
+                </div>
+            </div>
+        </div>
+        <!-- end contact section -->
+
+        <!-- Start footer section -->
+        <div class="footer-container">
+            <div class="footer-item">
+                <div class="inner-lists">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="inner-lists">
+                    <ul>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="lujaina.alattar@gmail.com"><?xml version="1.0" ?><svg height="72" viewBox="0 0 72 72" width="72" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M36,72 L36,72 C55.882251,72 72,55.882251 72,36 L72,36 C72,16.117749 55.882251,-3.65231026e-15 36,0 L36,0 C16.117749,3.65231026e-15 -2.4348735e-15,16.117749 0,36 L0,36 C2.4348735e-15,55.882251 16.117749,72 36,72 Z" fill="#000"/><path d="M18,26.1623226 L18,46.5476129 C18,47.6566452 18.8117419,48.5554839 19.9300645,48.5554839 L51.7447742,48.5554839 C52.8619355,48.5554839 53.6748387,47.6461935 53.6748387,46.5476129 L53.6748387,26.1623226 C53.6748387,24.9452903 52.947871,24 51.7447742,24 L19.9300645,24 C18.6805161,24 18,24.9685161 18,26.1623226 M20.9334194,27.9379355 C20.9334194,27.4467097 21.2307097,27.1656774 21.7056774,27.1656774 C21.9994839,27.1656774 33.560129,34.4910968 34.2603871,34.9207742 L36.0696774,36.0460645 C36.6433548,35.6616774 37.2193548,35.3330323 37.8139355,34.9347097 C39.0274839,34.1589677 49.8251613,27.1656774 50.1224516,27.1656774 C50.5985806,27.1656774 50.8947097,27.4467097 50.8947097,27.9379355 C50.8947097,28.4581935 49.8925161,28.9749677 49.239871,29.3732903 C45.1393548,31.8723871 41.04,34.5967742 36.980129,37.1887742 C36.7432258,37.3490323 36.2845161,37.6916129 35.9407742,37.6393548 C35.5575484,37.580129 23.7936774,30.0224516 21.6534194,28.7636129 C21.3317419,28.5743226 20.9334194,28.4012903 20.9334194,27.9379355" fill="#FFF"/></g></svg></a>
+                <a href="https://www.linkedin.com/in/lujain-alattar-4a0808218/"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z"/></svg></a>
+                <a href="https://github.com/LujainAlattar"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path clip-rule="evenodd" d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z" fill="#181616" fill-rule="evenodd"/><g/><g/><g/><g/><g/><g/></svg></a>
+            </div>
+        </div>
+        <!-- end footer section -->
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
